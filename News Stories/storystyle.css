@@ -1,0 +1,24 @@
+.story-title {
+  margin: 25px auto;
+  font-family: "Arvo", serif;
+  margin: 100px auto 25px;
+}
+.story-subtitle {
+  font-family: "Arvo", serif;
+  font-size: 1.2rem;
+  color: #f5768f;
+}
+.story p {
+  max-width: 65%;
+  margin: 25px auto;
+  line-height: 2;
+}
+br {
+  padding-left: 2em;
+}
+.story img {
+  width: 50%;
+}
+.author-name {
+  margin: 10px auto;
+}
