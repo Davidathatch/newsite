@@ -5,8 +5,8 @@ body {
   margin: 0;
   font-family: "News Cycle", sans-serif;
 }
-.bg-dark {
-  background-color: #222831;
+.body-bg-dark {
+  background-color: #383f46;
 }
 .font-dark {
   color: #ececec;
@@ -35,6 +35,12 @@ body {
   top: 0;
   z-index: 2;
 }
+.header-icon {
+  color: #8599f2;
+}
+.header-icon-dark {
+  color: #f5768f;
+}
 
 /* RECENT NEWS */
 
@@ -42,9 +48,10 @@ body {
   margin: 50px auto 25px;
   width: 22rem;
 }
-.news-Card h5 {
+.card-title {
   padding: 5% 0;
   color: #8599f2;
+  margin: 0;
 }
 .story-date {
   color: gray;
@@ -52,11 +59,8 @@ body {
 .recent-stories {
   margin: 100px 0 25px;
 }
-.card-title {
-  margin: 0;
-}
 .news-Card-Dark {
-  background-color: #30475e;
+  background-color: #323b47;
   border-color: transparent;
 }
 .card-Body-Style {
@@ -64,9 +68,21 @@ body {
 }
 .card-img {
   background-color: whitesmoke;
+  background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  width: 250px;
+  height: 250px;
 }
 .card-Img-Dark {
-  background-color: gray;
+  background-color: #394350;
+  background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  width: 300px;
+  height: 300px;
+}
+.card-bottom-sec {
+  background-color: #363f4b;
+}
+.btn-dark-mode {
+  background-color: #363f4b;
 }
 
 /* SOURCE INFO */
@@ -111,6 +127,9 @@ body {
   background-color: #f8f9fa;
   padding: 50px 0;
 }
+.footer-dark {
+  background-color: #343a40;
+}
 .footer-icon {
   color: gray;
   font-size: 1.5rem;
@@ -152,4 +171,9 @@ body {
 .story-list-item {
   display: inline;
   vertical-align: middle;
+}
+.sub-text-dark {
+  padding: 5% 0;
+  color: #f5768f;
+  margin: 0;
 }

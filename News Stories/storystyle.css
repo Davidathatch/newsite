@@ -17,7 +17,13 @@ br {
   padding-left: 2em;
 }
 .story img {
+  width: 75%;
   width: 50%;
+  margin: 25px auto;
+  border-style: dotted;
+  padding: 25px;
+  border-width: 5px;
+  border-color: #f5768f;
 }
 .author-name {
   margin: 10px auto;
